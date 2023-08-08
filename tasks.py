@@ -10,7 +10,7 @@ def robot_spare_bin_python():
     )
     open_the_intranet_website()
     log_in()
-    download_excel_file()
+    # download_excel_file()
     fill_form_with_excel_data()
     collect_results()
     export_as_pdf()
