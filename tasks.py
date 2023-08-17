@@ -23,8 +23,8 @@ def open_the_intranet_website():
 def log_in():
     """Fills in the login form and clicks the 'Log in' button"""
     page = browser.page()
-    page.fill("#username", "maria")
-    page.fill("#password", "thoushallnotpass")
+    page.fill("#username", "maria")#Move to vault service
+    page.fill("#password", "thoushallnotpass")#Move to vault service
     page.click("button:text('Log in')")
 
 def fill_form_with_excel_data():
